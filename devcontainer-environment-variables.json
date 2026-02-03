@@ -1,0 +1,26 @@
+{
+  "containerEnv": {
+    "AWS_CONFIG_ENABLED": "true",
+    "CICD": "false",
+    "DEFAULT_GIT_BRANCH": "main",
+    "DEVELOPER_NAME": "dummy-user",
+    "GIT_PROVIDER_URL": "github.com",
+    "GIT_USER": "dummy-user",
+    "GIT_USER_EMAIL": "dummy@user.com",
+    "GIT_TOKEN": "dummy-credentials-token",
+    "EXTRA_APT_PACKAGES": "",
+    "PAGER": "cat",
+    "AWS_DEFAULT_OUTPUT": "json"
+  },
+  "aws_profile_map": {
+    "default": {
+      "region": "us-east-1",
+      "sso_start_url": "https://dummy.awsapps.com/start/#",
+      "sso_region": "us-east-1",
+      "account_name": "dummy",
+      "account_id": "1234123412341234",
+      "role_name": "dummy-Role"
+    }
+  },
+  "cli_version": "1.14.1"
+}

@@ -1,0 +1,10 @@
+{
+  "default": {
+    "region": "us-east-1",
+    "sso_start_url": "https://dummy.awsapps.com/start/#",
+    "sso_region": "us-east-1",
+    "account_name": "dummy",
+    "account_id": "1234123412341234",
+    "role_name": "dummy-Role"
+  }
+}

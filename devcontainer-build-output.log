@@ -1,0 +1,1360 @@
+[Info	- 14:31:41.99] Remote name: dev-container
+[Info	- 14:31:41.99] Remote authority: dev-container+7b22776f726b737061636550617468223a222f55736572732f6d6472657364656e2f576f726b73706163652f6361796c656e742d736f6c7574696f6e732f77696e64737572662d64656275672d646576636f6e7461696e65722d6578616d706c65222c22646576636f6e7461696e657250617468223a222f55736572732f6d6472657364656e2f576f726b73706163652f6361796c656e742d736f6c7574696f6e732f77696e64737572662d64656275672d646576636f6e7461696e65722d6578616d706c652f2e646576636f6e7461696e65722f646576636f6e7461696e65722e6a736f6e227d
+[Info	- 14:31:41.102] Resolving dev container authority 'dev-container+7b22776f726b737061636550617468223a222f55736572732f6d6472657364656e2f576f726b73706163652f6361796c656e742d736f6c7574696f6e732f77696e64737572662d64656275672d646576636f6e7461696e65722d6578616d706c65222c22646576636f6e7461696e657250617468223a222f55736572732f6d6472657364656e2f576f726b73706163652f6361796c656e742d736f6c7574696f6e732f77696e64737572662d64656275672d646576636f6e7461696e65722d6578616d706c652f2e646576636f6e7461696e65722f646576636f6e7461696e65722e6a736f6e227d' (attempt #1) container '{"workspacePath":"/Users/dummy-user/Workspace/dummy-org/windsurf-debug-devcontainer-example","devcontainerPath":"/Users/dummy-user/Workspace/dummy-org/windsurf-debug-devcontainer-example/.devcontainer/devcontainer.json"}'
+[Info	- 14:31:41.103] setup devContainers
+[Info	- 14:31:41.104] Starting Windsurf Dev Containers...
+[Info	- 14:31:41.104] Checking docker version runs
+[Info	- 14:31:41.127] Docker version: Client:
+ Version:           29.2.0
+ API version:       1.53
+ Go version:        go1.25.6
+ Git commit:        0b9d198
+ Built:             Mon Jan 26 19:25:13 2026
+ OS/Arch:           darwin/arm64
+ Context:           desktop-linux
+
+Server: Docker Desktop 4.59.1 (217750)
+ Engine:
+  Version:          29.2.0
+  API version:      1.53 (minimum version 1.44)
+  Go version:       go1.25.6
+  Git commit:       9c62384
+  Built:            Mon Jan 26 19:25:48 2026
+  OS/Arch:          linux/arm64
+  Experimental:     false
+ containerd:
+  Version:          v2.2.1
+  GitCommit:        dea7da592f5d1d2b7755e3a161be07f43fad8f75
+ runc:
+  Version:          1.3.4
+  GitCommit:        v1.3.4-0-gd6d73eb8
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
+
+[Info	- 14:31:41.127] Start devcontainer up ...
+[Info	- 14:31:41.127] Node path: /Applications/Windsurf.app/Contents/Frameworks/Windsurf Helper (Plugin).app/Contents/MacOS/Windsurf Helper (Plugin)
+[Info	- 14:31:41.127] Devcontainer CLI path: /Applications/Windsurf.app/Contents/Resources/app/extensions/windsurf-dev-containers/dist/@devcontainers/cli/dist/spec-node/devContainersSpecCLI.js
+[Info	- 14:31:41.219] startDevContainer stderr: [2026-02-03T14:31:41.219Z] @devcontainers/cli 0.81.1. Node.js v22.20.0. darwin 25.2.0 arm64.
+
+[Info	- 14:31:41.219] startDevContainer stderr: [2026-02-03T14:31:41.219Z] Start: Run: docker buildx version
+
+[Info	- 14:31:41.800] startDevContainer stderr: [2026-02-03T14:31:41.800Z] Stop (581 ms): Run: docker buildx version
+
+[Info	- 14:31:41.800] startDevContainer stderr: [2026-02-03T14:31:41.800Z] github.com/docker/buildx v0.31.1-desktop.1 3d153e82f8d99923062781d390607dabe1679613
+
+[Info	- 14:31:41.800] startDevContainer stderr: [2026-02-03T14:31:41.800Z] 
+
+[Info	- 14:31:41.800] startDevContainer stderr: [2026-02-03T14:31:41.800Z] Start: Run: docker version --format {{.Server.Version}}
+
+[Info	- 14:31:41.821] startDevContainer stderr: [2026-02-03T14:31:41.821Z] Stop (21 ms): Run: docker version --format {{.Server.Version}}
+
+[Info	- 14:31:41.821] startDevContainer stderr: [2026-02-03T14:31:41.821Z] 29.2.0
+[2026-02-03T14:31:41.821Z] 
+[2026-02-03T14:31:41.821Z] Start: Run: docker -v
+
+[Info	- 14:31:41.832] startDevContainer stderr: [2026-02-03T14:31:41.832Z] Stop (11 ms): Run: docker -v
+
+[Info	- 14:31:41.833] startDevContainer stderr: [2026-02-03T14:31:41.832Z] Start: Resolving Remote
+
+[Info	- 14:31:41.835] startDevContainer stderr: [2026-02-03T14:31:41.835Z] Start: Run: git rev-parse --show-cdup
+
+[Info	- 14:31:41.844] startDevContainer stderr: [2026-02-03T14:31:41.844Z] Stop (9 ms): Run: git rev-parse --show-cdup
+
+[Info	- 14:31:41.844] startDevContainer stderr: [2026-02-03T14:31:41.844Z] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=/Users/dummy-user/Workspace/dummy-org/windsurf-debug-devcontainer-example --filter label=devcontainer.config_file=/Users/dummy-user/Workspace/dummy-org/windsurf-debug-devcontainer-example/.devcontainer/devcontainer.json
+
+[Info	- 14:31:41.868] startDevContainer stderr: [2026-02-03T14:31:41.868Z] Stop (24 ms): Run: docker ps -q -a --filter label=devcontainer.local_folder=/Users/dummy-user/Workspace/dummy-org/windsurf-debug-devcontainer-example --filter label=devcontainer.config_file=/Users/dummy-user/Workspace/dummy-org/windsurf-debug-devcontainer-example/.devcontainer/devcontainer.json
+
+[Info	- 14:31:41.868] startDevContainer stderr: [2026-02-03T14:31:41.868Z] Start: Run: docker inspect --type container b1f9bf1c4a95
+
+[Info	- 14:31:41.884] startDevContainer stderr: [2026-02-03T14:31:41.884Z] Stop (16 ms): Run: docker inspect --type container b1f9bf1c4a95
+
+[Info	- 14:31:42.36] startDevContainer stderr: [2026-02-03T14:31:42.036Z] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=/Users/dummy-user/Workspace/dummy-org/windsurf-debug-devcontainer-example --filter label=devcontainer.config_file=/Users/dummy-user/Workspace/dummy-org/windsurf-debug-devcontainer-example/.devcontainer/devcontainer.json
+
+[Info	- 14:31:42.60] startDevContainer stderr: [2026-02-03T14:31:42.060Z] Stop (24 ms): Run: docker ps -q -a --filter label=devcontainer.local_folder=/Users/dummy-user/Workspace/dummy-org/windsurf-debug-devcontainer-example --filter label=devcontainer.config_file=/Users/dummy-user/Workspace/dummy-org/windsurf-debug-devcontainer-example/.devcontainer/devcontainer.json
+
+[Info	- 14:31:42.61] startDevContainer stderr: [2026-02-03T14:31:42.060Z] Start: Run: docker inspect --type container b1f9bf1c4a95
+
+[Info	- 14:31:42.77] startDevContainer stderr: [2026-02-03T14:31:42.077Z] Stop (17 ms): Run: docker inspect --type container b1f9bf1c4a95
+
+[Info	- 14:31:42.78] startDevContainer stderr: [2026-02-03T14:31:42.078Z] Start: Inspecting container
+
+[Info	- 14:31:42.78] startDevContainer stderr: [2026-02-03T14:31:42.078Z] Start: Run: docker inspect --type container b1f9bf1c4a959cc497cf83f89a9573f095ab6857de83eb01768af9bc517ef341
+
+[Info	- 14:31:42.95] startDevContainer stderr: [2026-02-03T14:31:42.095Z] Stop (17 ms): Run: docker inspect --type container b1f9bf1c4a959cc497cf83f89a9573f095ab6857de83eb01768af9bc517ef341
+
+[Info	- 14:31:42.95] startDevContainer stderr: [2026-02-03T14:31:42.095Z] Stop (17 ms): Inspecting container
+
+[Info	- 14:31:42.95] startDevContainer stderr: [2026-02-03T14:31:42.095Z] Start: Run in container: /bin/sh
+
+[Info	- 14:31:42.97] startDevContainer stderr: [2026-02-03T14:31:42.097Z] Start: Run in container: uname -m
+
+[Info	- 14:31:42.138] startDevContainer stderr: [2026-02-03T14:31:42.138Z] aarch64
+[2026-02-03T14:31:42.138Z] 
+[2026-02-03T14:31:42.138Z] Stop (41 ms): Run in container: uname -m
+
+[Info	- 14:31:42.138] startDevContainer stderr: [2026-02-03T14:31:42.138Z] Start: Run in container: (cat /etc/os-release || cat /usr/lib/os-release) 2>/dev/null
+
+[Info	- 14:31:42.139] startDevContainer stderr: [2026-02-03T14:31:42.139Z] PRETTY_NAME="Ubuntu 24.04.3 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.3 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+[2026-02-03T14:31:42.139Z] 
+
+[Info	- 14:31:42.139] startDevContainer stderr: [2026-02-03T14:31:42.139Z] Stop (1 ms): Run in container: (cat /etc/os-release || cat /usr/lib/os-release) 2>/dev/null
+
+[Info	- 14:31:42.139] startDevContainer stderr: [2026-02-03T14:31:42.139Z] Start: Run in container:  (command -v getent >/dev/null 2>&1 && getent passwd 'vscode' || grep -E '^vscode|^[^:]*:[^:]*:vscode:' /etc/passwd || true)
+
+[Info	- 14:31:42.141] startDevContainer stderr: [2026-02-03T14:31:42.141Z] Stop (2 ms): Run in container:  (command -v getent >/dev/null 2>&1 && getent passwd 'vscode' || grep -E '^vscode|^[^:]*:[^:]*:vscode:' /etc/passwd || true)
+
+[Info	- 14:31:42.141] startDevContainer stderr: [2026-02-03T14:31:42.141Z] Start: Run in container: test -f '/var/devcontainer/.patchEtcEnvironmentMarker'
+
+[Info	- 14:31:42.142] startDevContainer stderr: [2026-02-03T14:31:42.142Z] 
+[2026-02-03T14:31:42.142Z] 
+
+[Info	- 14:31:42.142] startDevContainer stderr: [2026-02-03T14:31:42.142Z] Stop (1 ms): Run in container: test -f '/var/devcontainer/.patchEtcEnvironmentMarker'
+[2026-02-03T14:31:42.142Z] Start: Run in container: test -f '/var/devcontainer/.patchEtcProfileMarker'
+
+[Info	- 14:31:42.143] startDevContainer stderr: [2026-02-03T14:31:42.142Z] 
+[2026-02-03T14:31:42.142Z] 
+[2026-02-03T14:31:42.143Z] Stop (1 ms): Run in container: test -f '/var/devcontainer/.patchEtcProfileMarker'
+
+[Info	- 14:31:42.143] startDevContainer stderr: [2026-02-03T14:31:42.143Z] Stop (311 ms): Resolving Remote
+
+[Info	- 14:31:42.147] Devcontainer output as JSON: {
+    "outcome": "success",
+    "containerId": "b1f9bf1c4a959cc497cf83f89a9573f095ab6857de83eb01768af9bc517ef341",
+    "remoteUser": "vscode",
+    "remoteWorkspaceFolder": "/workspaces/windsurf-debug-devcontainer-example",
+    "configuration": {
+        "name": "caylent-devcontainer",
+        "remoteUser": "vscode",
+        "image": "mcr.microsoft.com/devcontainers/base:noble",
+        "workspaceFolder": "/workspaces/windsurf-debug-devcontainer-example",
+        "features": {
+            "ghcr.io/devcontainers/features/aws-cli:1": {
+                "version": "latest"
+            },
+            "ghcr.io/devcontainers/features/python:1": {
+                "version": "3.12",
+                "installTools": "true"
+            },
+            "ghcr.io/devcontainers/features/java:1": {
+                "version": "17",
+                "jdkDistro": "tem",
+                "installGradle": "false"
+            },
+            "ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {
+                "version": "latest",
+                "helm": "latest",
+                "minikube": "latest"
+            },
+            "ghcr.io/devcontainers/features/common-utils:2": {
+                "version": "latest"
+            },
+            "ghcr.io/devcontainers/features/docker-in-docker:2": {
+                "version": "latest"
+            }
+        },
+        "customizations": {
+            "vscode": {
+                "extensions": [
+                    "aws-scripting-guy.cform",
+                    "amazonwebservices.aws-toolkit-vscode",
+                    "eamodio.gitlens",
+                    "GitHub.vscode-pull-request-github",
+                    "GitHub.vscode-github-actions",
+                    "ms-azuretools.vscode-docker",
+                    "ms-python.debugpy",
+                    "charliermarsh.ruff",
+                    "ms-python.python",
+                    "ms-python.vscode-pylance",
+                    "redhat.vscode-yaml",
+                    "streetsidesoftware.code-spell-checker",
+                    "wayou.vscode-todo-highlight",
+                    "vscjava.vscode-java-pack",
+                    "redhat.java",
+                    "anthropic.claude-code"
+                ],
+                "settings": {
+                    "terminal.integrated.defaultProfile.linux": "zsh",
+                    "gitlens.currentLine.enabled": false,
+                    "gitlens.codeLens.enabled": false,
+                    "gitlens.hovers.enabled": false,
+                    "gitlens.statusBar.enabled": false,
+                    "gitlens.blame.line.enabled": false,
+                    "gitlens.blame.file.enabled": false,
+                    "python.linting.enabled": true,
+                    "python.defaultFormatter": "charliermarsh.ruff",
+                    "[python]": {
+                        "editor.defaultFormatter": "charliermarsh.ruff",
+                        "editor.codeActionsOnSave": {
+                            "source.fixAll.ruff": "explicit",
+                            "source.organizeImports.ruff": "explicit"
+                        }
+                    },
+                    "editor.formatOnSave": true,
+                    "files.associations": {
+                        "*.yml": "yaml",
+                        "*.yaml": "yaml",
+                        "Dockerfile*": "dockerfile",
+                        "*.sql": "sql"
+                    },
+                    "docker.attachShellCommand.linuxContainer": "/bin/bash",
+                    "java.configuration.updateBuildConfiguration": "automatic",
+                    "java.autobuild.enabled": true,
+                    "java.debug.settings.hotCodeReplace": "auto",
+                    "java.debug.settings.onBuildFailureProceed": true,
+                    "java.import.gradle.enabled": true,
+                    "java.import.gradle.wrapper.enabled": true,
+                    "java.jdt.ls.java.home": "/usr/local/sdkman/candidates/java/current",
+                    "java.configuration.runtimes": [
+                        {
+                            "name": "JavaSE-17",
+                            "path": "/usr/local/sdkman/candidates/java/current",
+                            "default": true
+                        }
+                    ],
+                    "java.saveActions.organizeImports": true,
+                    "java.sources.organizeImports.starThreshold": 99,
+                    "java.sources.organizeImports.staticStarThreshold": 99,
+                    "java.format.settings.url": "/workspaces/windsurf-debug-devcontainer-example/config/checkstyle/checkstyle.xml",
+                    "java.checkstyle.configuration": "/workspaces/windsurf-debug-devcontainer-example/config/checkstyle/checkstyle.xml",
+                    "java.compile.nullAnalysis.mode": "automatic",
+                    "java.codeGeneration.hashCodeEquals.useJava7Objects": true,
+                    "java.codeGeneration.useBlocks": true,
+                    "[java]": {
+                        "editor.defaultFormatter": "redhat.java",
+                        "editor.codeActionsOnSave": {
+                            "source.organizeImports": "explicit"
+                        },
+                        "editor.suggest.snippetsPreventQuickSuggestions": false
+                    },
+                    "spring-boot.ls.java.home": "/usr/local/sdkman/candidates/java/current",
+                    "spring-boot.ls.checkjdk": false,
+                    "spring-boot.ls.problem.application-properties.PROP_UNKNOWN_PROPERTY": "WARNING",
+                    "spring-boot.ls.problem.application-properties.PROP_INVALID_VALUE": "ERROR",
+                    "aws.profile": "default",
+                    "aws.telemetry": false,
+                    "aws.suppressPrompts": {
+                        "regionAddAutomatically": true,
+                        "credentialsCreateAutomatically": true,
+                        "connectionWizard": true
+                    },
+                    "aws.codeWhisperer.shareCodeWhispererContentWithAWS": false,
+                    "aws.experiments.jsonResourceModification": true,
+                    "aws.toolkit.useConnectionWizard": false,
+                    "claude-code.disableLoginPrompt": true,
+                    "claude-code.telemetry.enabled": false,
+                    "claude-code.shareCodeContext": false,
+                    "chat.agent.enabled": true,
+                    "chat.agent.maxRequests": 50,
+                    "chat.tools.edits.autoApprove": {
+                        "**/*": true,
+                        "**/.vscode/*.json": false,
+                        "**/.git/**": false,
+                        "**/build.gradle": false,
+                        "**/settings.gradle": false,
+                        "**/gradle.properties": false,
+                        "**/.devcontainer/**": false,
+                        "**/.github/workflows/*.yml": false,
+                        "**/cd/k8s/**/*.yaml": false,
+                        "**/config/checkstyle/*.xml": false,
+                        "**/src/main/resources/application*.yml": false,
+                        "**/.tool-versions": false,
+                        "**/devcontainer-environment-variables.json": false,
+                        "**/shell.env": false
+                    },
+                    "chat.tools.terminal.enableAutoApprove": true,
+                    "chat.tools.terminal.ignoreDefaultAutoApproveRules": true,
+                    "chat.tools.terminal.autoApprove": {
+                        "git status": true,
+                        "git log": true,
+                        "git show": true,
+                        "git diff": true,
+                        "git branch": true,
+                        "git remote": true,
+                        "/^git (status|log|show|diff|describe|branch|remote|config --list|tag --list)/": true,
+                        "/^aws sso login/": true,
+                        "/^aws sts get-caller-identity/": true,
+                        "/^aws .* (describe|list|get)-/": true,
+                        "/^aws s3 ls/": true,
+                        "/^argocd login/": true,
+                        "/^argocd .* (list|get|diff|logs|manifests)/": true,
+                        "/^fly.*login/": true,
+                        "/^fly (pipelines|jobs|builds|workers|targets|status)/": true,
+                        "/^gh auth (login|status)/": true,
+                        "/^gh .* (view|list|diff)/": true,
+                        "/^snyk (auth|config|test|monitor|--version)/": true,
+                        "/^crane (ls|manifest|config|digest|version)/": true,
+                        "/^kubectl (get|describe|logs|explain|api-resources|cluster-info|top|config view)/": true,
+                        "/^helm (list|status|get|history|show|search|repo list)/": true,
+                        "/^\\.\\/gradlew (build|test|clean|dependencies|tasks|properties)/": true,
+                        "/^ls( |$)/": true,
+                        "/^(cat|head|tail|grep|find|tree|wc|diff|file|stat|pwd|which|env|printenv|xargs)( |$)/": true,
+                        "/^while read /": true,
+                        "/^code --list-extensions/": true,
+                        "/^asdf plugin (list|add)/": true,
+                        "/^asdf list all/": true,
+                        "/^asdf (install|reshim|current)/": true,
+                        "/^which (fly|docker|snyk|crane)/": true,
+                        "/^(fly|docker|snyk|crane) --version/": true,
+                        "/^source ~\\/.bashrc/": true,
+                        "mkdir": true,
+                        "sed": false,
+                        "awk": false,
+                        "/^(vi|vim|nano|emacs)/": false,
+                        "/^echo .* >/": false,
+                        "tee": false,
+                        "rm": false,
+                        "mv": false,
+                        "cp": false,
+                        "/^git (add|commit|push|merge|rebase)/": false,
+                        "/^\\.\\/gradlew bootRun/": false,
+                        "/^docker (build|run|push)/": false,
+                        "/^kubectl (apply|delete|edit|patch)/": false,
+                        "/^helm (install|upgrade|delete)/": false,
+                        "/^aws s3 (cp|sync|rm)/": false
+                    },
+                    "chat.tools.terminal.blockDetectedFileWrites": "outsideWorkspace",
+                    "chat.tools.terminal.preventShellHistory": false,
+                    "chat.tools.terminal.terminalProfile.linux": "zsh",
+                    "chat.tools.terminal.autoReplyToPrompts": true,
+                    "chat.implicitContext.enabled": {
+                        "panel": "always"
+                    },
+                    "chat.instructionsFilesLocations": {
+                        ".github/instructions": true
+                    },
+                    "chat.promptFilesLocations": {
+                        ".github/prompts": true
+                    },
+                    "chat.useNestedClaudeMdFiles": true,
+                    "chat.promptFilesRecommendations": [],
+                    "chat.edits2.enabled": true,
+                    "chat.checkpoints.enabled": true,
+                    "chat.math.enabled": true,
+                    "chat.mcp.discovery.enabled": false,
+                    "chat.mcp.autostart": "newAndOutdated",
+                    "chat.mcp.gallery.enabled": true,
+                    "chat.mcp.assisted.nuget.enabled": false,
+                    "chat.mcp.serverSampling": true,
+                    "chat.customAgentInSubagent.enabled": true,
+                    "chat.detectParticipant.enabled": true,
+                    "chat.tools.eligibleForAutoApproval": [
+                        "Read",
+                        "Glob",
+                        "Grep",
+                        "WebFetch"
+                    ],
+                    "chat.tools.urls.autoApprove": {
+                        "https://**": true
+                    },
+                    "inlineChat.enableV2": true,
+                    "inlineChat.notebookAgent": false,
+                    "chat.sendElementsToChat.enabled": true,
+                    "chat.sendElementsToChat.attachCss": true,
+                    "chat.sendElementsToChat.attachImages": true,
+                    "chat.allowAnonymousAccess": false,
+                    "chat.agent.thinkingStyle": "fixedScrolling",
+                    "chat.agent.codeBlockProgress": true,
+                    "chat.agent.thinking.collapsedTools": "always",
+                    "chat.agent.thinking.generateTitles": true,
+                    "chat.implicitContext.suggestedContext": true,
+                    "chat.renderRelatedFiles": true,
+                    "chat.editing.autoAcceptDelay": 0,
+                    "chat.editing.confirmEditRequestRemoval": false,
+                    "chat.editing.confirmEditRequestRetry": false,
+                    "chat.editor.wordWrap": "on",
+                    "chat.editRequests": "inline",
+                    "chat.checkpoints.showFileChanges": true,
+                    "chat.restoreLastPanelSession": true,
+                    "chat.viewSessions.enabled": true,
+                    "chat.viewSessions.orientation": "sideBySide",
+                    "chat.exitAfterDelegation": true,
+                    "chat.commandCenter.enabled": true,
+                    "chat.viewTitle.enabled": true,
+                    "chat.viewWelcome.enabled": false,
+                    "chat.notifyWindowOnConfirmation": true,
+                    "chat.notifyWindowOnResponseReceived": true,
+                    "chat.tools.todos.showWidget": true,
+                    "chat.undoRequests.restoreInput": true,
+                    "inlineChat.finishOnType": true,
+                    "inlineChat.holdToSpeech": true,
+                    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Xmx2G -Xms100m",
+                    "java.server.launchMode": "Standard",
+                    "java.completion.favoriteStaticMembers": [
+                        "org.junit.jupiter.api.Assertions.*",
+                        "org.mockito.Mockito.*",
+                        "org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*",
+                        "org.springframework.test.web.servlet.result.MockMvcResultMatchers.*"
+                    ],
+                    "java.completion.importOrder": [
+                        "java",
+                        "javax",
+                        "com",
+                        "org"
+                    ],
+                    "java.jdt.ls.lombokSupport.enabled": true,
+                    "java.test.config": {
+                        "vmArgs": [
+                            "-Dspring.profiles.active=test"
+                        ]
+                    },
+                    "java.test.defaultConfig": "default",
+                    "java.telemetry.enabled": false,
+                    "redhat.telemetry.enabled": false,
+                    "telemetry.telemetryLevel": "off"
+                }
+            }
+        },
+        "userEnvProbe": "loginInteractiveShell",
+        "containerEnv": {
+            "AWS_CONFIG_ENABLED": "false",
+            "AWS_DEFAULT_OUTPUT": "",
+            "AWS_PROFILE": "default",
+            "AWS_REGION": "us-east-1",
+            "BASH_ENV": "/workspaces/windsurf-debug-devcontainer-example/shell.env",
+            "CICD": "",
+            "CLAUDE_CODE_USE_BEDROCK": "1",
+            "DEFAULT_GIT_BRANCH": "main",
+            "DEVELOPER_NAME": "dummy-user",
+            "DEVCONTAINER": "true",
+            "EXTRA_APT_PACKAGES": "tcpdump",
+            "GIT_PROVIDER_URL": "github.com",
+            "GIT_TOKEN": "ghp_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            "GIT_USER": "dummy-user",
+            "GIT_USER_EMAIL": "dummy@user.com",
+            "PAGER": "less"
+        },
+        "postCreateCommand": "bash -c 'exec > >(tee /tmp/devcontainer-setup.log) 2>&1; if uname -r | grep -i microsoft > /dev/null; then sudo apt-get update && sudo apt-get install -y gettext-base jq python3 && find .devcontainer -type f -exec sed -i \"s/\\r$//\" {} + && python3 .devcontainer/fix-line-endings.py && sudo apt-get remove -y python3 && sudo apt-get autoremove -y && source shell.env && exec bash .devcontainer/.devcontainer.postcreate.sh vscode; else sudo apt-get update && sudo apt-get install -y gettext-base jq && sudo bash .devcontainer/.devcontainer.postcreate.sh vscode; fi && echo \"Setup complete. View logs: cat /tmp/devcontainer-setup.log\" && exit 0'",
+        "configFilePath": {
+            "$mid": 1,
+            "fsPath": "/Users/dummy-user/Workspace/dummy-org/windsurf-debug-devcontainer-example/.devcontainer/devcontainer.json",
+            "path": "/Users/dummy-user/Workspace/dummy-org/windsurf-debug-devcontainer-example/.devcontainer/devcontainer.json",
+            "scheme": "file"
+        }
+    },
+    "mergedConfiguration": {
+        "name": "caylent-devcontainer",
+        "remoteUser": "vscode",
+        "image": "mcr.microsoft.com/devcontainers/base:noble",
+        "workspaceFolder": "/workspaces/windsurf-debug-devcontainer-example",
+        "features": {
+            "ghcr.io/devcontainers/features/aws-cli:1": {
+                "version": "latest"
+            },
+            "ghcr.io/devcontainers/features/python:1": {
+                "version": "3.12",
+                "installTools": "true"
+            },
+            "ghcr.io/devcontainers/features/java:1": {
+                "version": "17",
+                "jdkDistro": "tem",
+                "installGradle": "false"
+            },
+            "ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {
+                "version": "latest",
+                "helm": "latest",
+                "minikube": "latest"
+            },
+            "ghcr.io/devcontainers/features/common-utils:2": {
+                "version": "latest"
+            },
+            "ghcr.io/devcontainers/features/docker-in-docker:2": {
+                "version": "latest"
+            }
+        },
+        "userEnvProbe": "loginInteractiveShell",
+        "containerEnv": {
+            "AWS_CONFIG_ENABLED": "false",
+            "AWS_DEFAULT_OUTPUT": "",
+            "AWS_PROFILE": "default",
+            "AWS_REGION": "us-east-1",
+            "BASH_ENV": "/workspaces/windsurf-debug-devcontainer-example/shell.env",
+            "CICD": "",
+            "CLAUDE_CODE_USE_BEDROCK": "1",
+            "DEFAULT_GIT_BRANCH": "main",
+            "DEVELOPER_NAME": "dummy-user",
+            "DEVCONTAINER": "true",
+            "EXTRA_APT_PACKAGES": "tcpdump",
+            "GIT_PROVIDER_URL": "github.com",
+            "GIT_TOKEN": "ghp_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            "GIT_USER": "dummy-user",
+            "GIT_USER_EMAIL": "dummy@user.com",
+            "PAGER": "less"
+        },
+        "configFilePath": {
+            "$mid": 1,
+            "fsPath": "/Users/dummy-user/Workspace/dummy-org/windsurf-debug-devcontainer-example/.devcontainer/devcontainer.json",
+            "path": "/Users/dummy-user/Workspace/dummy-org/windsurf-debug-devcontainer-example/.devcontainer/devcontainer.json",
+            "scheme": "file"
+        },
+        "init": false,
+        "privileged": true,
+        "entrypoints": [
+            "/usr/local/share/docker-init.sh"
+        ],
+        "mounts": [
+            {
+                "source": "dind-var-lib-docker-057e17gi5a3eqv802n25no4d3puu77rk87l5oodk63pqtbvjffct",
+                "target": "/var/lib/docker",
+                "type": "volume"
+            },
+            {
+                "source": "minikube-config",
+                "target": "/home/vscode/.minikube",
+                "type": "volume"
+            }
+        ],
+        "customizations": {
+            "vscode": [
+                {
+                    "settings": {
+                        "github.copilot.chat.codeGeneration.instructions": [
+                            {
+                                "text": "This dev container includes an up-to-date version of Git, built from source as needed, pre-installed and available on the `PATH`."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "extensions": [
+                        "AmazonWebServices.aws-toolkit-vscode"
+                    ],
+                    "settings": {
+                        "github.copilot.chat.codeGeneration.instructions": [
+                            {
+                                "text": "This dev container includes the AWS CLI along with needed dependencies pre-installed and available on the `PATH`, along with the AWS Toolkit extensions for AWS development."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "extensions": [
+                        "ms-azuretools.vscode-containers"
+                    ],
+                    "settings": {
+                        "github.copilot.chat.codeGeneration.instructions": [
+                            {
+                                "text": "This dev container includes the Docker CLI (`docker`) pre-installed and available on the `PATH` for running and managing containers using a dedicated Docker daemon running inside the dev container."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "extensions": [
+                        "vscjava.vscode-java-pack"
+                    ],
+                    "settings": {
+                        "java.import.gradle.java.home": "/usr/local/sdkman/candidates/java/current"
+                    }
+                },
+                {
+                    "settings": {
+                        "github.copilot.chat.codeGeneration.instructions": [
+                            {
+                                "text": "This dev container includes kubectl, Helm, optionally minikube, and needed dependencies pre-installed and available on the `PATH`. When configuring Ingress for your Kubernetes cluster, note that by default Kubernetes will bind to a specific interface's IP rather than localhost or all interfaces. This is why you need to use the Kubernetes Node's IP when connecting - even if there's only one Node as in the case of Minikube."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "extensions": [
+                        "ms-python.python",
+                        "ms-python.vscode-pylance",
+                        "ms-python.autopep8"
+                    ],
+                    "settings": {
+                        "github.copilot.chat.codeGeneration.instructions": [
+                            {
+                                "text": "This dev container includes `python3` and `pip3` pre-installed and available on the `PATH`, along with the Python language extensions for Python development."
+                            }
+                        ],
+                        "python.defaultInterpreterPath": "/usr/local/python/current/bin/python",
+                        "[python]": {
+                            "editor.defaultFormatter": "ms-python.autopep8"
+                        }
+                    }
+                },
+                {
+                    "extensions": [
+                        "aws-scripting-guy.cform",
+                        "amazonwebservices.aws-toolkit-vscode",
+                        "eamodio.gitlens",
+                        "GitHub.vscode-pull-request-github",
+                        "GitHub.vscode-github-actions",
+                        "ms-azuretools.vscode-docker",
+                        "ms-python.debugpy",
+                        "charliermarsh.ruff",
+                        "ms-python.python",
+                        "ms-python.vscode-pylance",
+                        "redhat.vscode-yaml",
+                        "streetsidesoftware.code-spell-checker",
+                        "wayou.vscode-todo-highlight",
+                        "vscjava.vscode-java-pack",
+                        "redhat.java",
+                        "anthropic.claude-code"
+                    ],
+                    "settings": {
+                        "terminal.integrated.defaultProfile.linux": "zsh",
+                        "gitlens.currentLine.enabled": false,
+                        "gitlens.codeLens.enabled": false,
+                        "gitlens.hovers.enabled": false,
+                        "gitlens.statusBar.enabled": false,
+                        "gitlens.blame.line.enabled": false,
+                        "gitlens.blame.file.enabled": false,
+                        "python.linting.enabled": true,
+                        "python.defaultFormatter": "charliermarsh.ruff",
+                        "[python]": {
+                            "editor.defaultFormatter": "charliermarsh.ruff",
+                            "editor.codeActionsOnSave": {
+                                "source.fixAll.ruff": "explicit",
+                                "source.organizeImports.ruff": "explicit"
+                            }
+                        },
+                        "editor.formatOnSave": true,
+                        "files.associations": {
+                            "*.yml": "yaml",
+                            "*.yaml": "yaml",
+                            "Dockerfile*": "dockerfile",
+                            "*.sql": "sql"
+                        },
+                        "docker.attachShellCommand.linuxContainer": "/bin/bash",
+                        "java.configuration.updateBuildConfiguration": "automatic",
+                        "java.autobuild.enabled": true,
+                        "java.debug.settings.hotCodeReplace": "auto",
+                        "java.debug.settings.onBuildFailureProceed": true,
+                        "java.import.gradle.enabled": true,
+                        "java.import.gradle.wrapper.enabled": true,
+                        "java.jdt.ls.java.home": "/usr/local/sdkman/candidates/java/current",
+                        "java.configuration.runtimes": [
+                            {
+                                "name": "JavaSE-17",
+                                "path": "/usr/local/sdkman/candidates/java/current",
+                                "default": true
+                            }
+                        ],
+                        "java.saveActions.organizeImports": true,
+                        "java.sources.organizeImports.starThreshold": 99,
+                        "java.sources.organizeImports.staticStarThreshold": 99,
+                        "java.format.settings.url": "/workspaces/windsurf-debug-devcontainer-example/config/checkstyle/checkstyle.xml",
+                        "java.checkstyle.configuration": "/workspaces/windsurf-debug-devcontainer-example/config/checkstyle/checkstyle.xml",
+                        "java.compile.nullAnalysis.mode": "automatic",
+                        "java.codeGeneration.hashCodeEquals.useJava7Objects": true,
+                        "java.codeGeneration.useBlocks": true,
+                        "[java]": {
+                            "editor.defaultFormatter": "redhat.java",
+                            "editor.codeActionsOnSave": {
+                                "source.organizeImports": "explicit"
+                            },
+                            "editor.suggest.snippetsPreventQuickSuggestions": false
+                        },
+                        "spring-boot.ls.java.home": "/usr/local/sdkman/candidates/java/current",
+                        "spring-boot.ls.checkjdk": false,
+                        "spring-boot.ls.problem.application-properties.PROP_UNKNOWN_PROPERTY": "WARNING",
+                        "spring-boot.ls.problem.application-properties.PROP_INVALID_VALUE": "ERROR",
+                        "aws.profile": "default",
+                        "aws.telemetry": false,
+                        "aws.suppressPrompts": {
+                            "regionAddAutomatically": true,
+                            "credentialsCreateAutomatically": true,
+                            "connectionWizard": true
+                        },
+                        "aws.codeWhisperer.shareCodeWhispererContentWithAWS": false,
+                        "aws.experiments.jsonResourceModification": true,
+                        "aws.toolkit.useConnectionWizard": false,
+                        "claude-code.disableLoginPrompt": true,
+                        "claude-code.telemetry.enabled": false,
+                        "claude-code.shareCodeContext": false,
+                        "chat.agent.enabled": true,
+                        "chat.agent.maxRequests": 50,
+                        "chat.tools.edits.autoApprove": {
+                            "**/*": true,
+                            "**/.vscode/*.json": false,
+                            "**/.git/**": false,
+                            "**/build.gradle": false,
+                            "**/settings.gradle": false,
+                            "**/gradle.properties": false,
+                            "**/.devcontainer/**": false,
+                            "**/.github/workflows/*.yml": false,
+                            "**/cd/k8s/**/*.yaml": false,
+                            "**/config/checkstyle/*.xml": false,
+                            "**/src/main/resources/application*.yml": false,
+                            "**/.tool-versions": false,
+                            "**/devcontainer-environment-variables.json": false,
+                            "**/shell.env": false
+                        },
+                        "chat.tools.terminal.enableAutoApprove": true,
+                        "chat.tools.terminal.ignoreDefaultAutoApproveRules": true,
+                        "chat.tools.terminal.autoApprove": {
+                            "git status": true,
+                            "git log": true,
+                            "git show": true,
+                            "git diff": true,
+                            "git branch": true,
+                            "git remote": true,
+                            "/^git (status|log|show|diff|describe|branch|remote|config --list|tag --list)/": true,
+                            "/^aws sso login/": true,
+                            "/^aws sts get-caller-identity/": true,
+                            "/^aws .* (describe|list|get)-/": true,
+                            "/^aws s3 ls/": true,
+                            "/^argocd login/": true,
+                            "/^argocd .* (list|get|diff|logs|manifests)/": true,
+                            "/^fly.*login/": true,
+                            "/^fly (pipelines|jobs|builds|workers|targets|status)/": true,
+                            "/^gh auth (login|status)/": true,
+                            "/^gh .* (view|list|diff)/": true,
+                            "/^snyk (auth|config|test|monitor|--version)/": true,
+                            "/^crane (ls|manifest|config|digest|version)/": true,
+                            "/^kubectl (get|describe|logs|explain|api-resources|cluster-info|top|config view)/": true,
+                            "/^helm (list|status|get|history|show|search|repo list)/": true,
+                            "/^\\.\\/gradlew (build|test|clean|dependencies|tasks|properties)/": true,
+                            "/^ls( |$)/": true,
+                            "/^(cat|head|tail|grep|find|tree|wc|diff|file|stat|pwd|which|env|printenv|xargs)( |$)/": true,
+                            "/^while read /": true,
+                            "/^code --list-extensions/": true,
+                            "/^asdf plugin (list|add)/": true,
+                            "/^asdf list all/": true,
+                            "/^asdf (install|reshim|current)/": true,
+                            "/^which (fly|docker|snyk|crane)/": true,
+                            "/^(fly|docker|snyk|crane) --version/": true,
+                            "/^source ~\\/.bashrc/": true,
+                            "mkdir": true,
+                            "sed": false,
+                            "awk": false,
+                            "/^(vi|vim|nano|emacs)/": false,
+                            "/^echo .* >/": false,
+                            "tee": false,
+                            "rm": false,
+                            "mv": false,
+                            "cp": false,
+                            "/^git (add|commit|push|merge|rebase)/": false,
+                            "/^\\.\\/gradlew bootRun/": false,
+                            "/^docker (build|run|push)/": false,
+                            "/^kubectl (apply|delete|edit|patch)/": false,
+                            "/^helm (install|upgrade|delete)/": false,
+                            "/^aws s3 (cp|sync|rm)/": false
+                        },
+                        "chat.tools.terminal.blockDetectedFileWrites": "outsideWorkspace",
+                        "chat.tools.terminal.preventShellHistory": false,
+                        "chat.tools.terminal.terminalProfile.linux": "zsh",
+                        "chat.tools.terminal.autoReplyToPrompts": true,
+                        "chat.implicitContext.enabled": {
+                            "panel": "always"
+                        },
+                        "chat.instructionsFilesLocations": {
+                            ".github/instructions": true
+                        },
+                        "chat.promptFilesLocations": {
+                            ".github/prompts": true
+                        },
+                        "chat.useNestedClaudeMdFiles": true,
+                        "chat.promptFilesRecommendations": [],
+                        "chat.edits2.enabled": true,
+                        "chat.checkpoints.enabled": true,
+                        "chat.math.enabled": true,
+                        "chat.mcp.discovery.enabled": false,
+                        "chat.mcp.autostart": "newAndOutdated",
+                        "chat.mcp.gallery.enabled": true,
+                        "chat.mcp.assisted.nuget.enabled": false,
+                        "chat.mcp.serverSampling": true,
+                        "chat.customAgentInSubagent.enabled": true,
+                        "chat.detectParticipant.enabled": true,
+                        "chat.tools.eligibleForAutoApproval": [
+                            "Read",
+                            "Glob",
+                            "Grep",
+                            "WebFetch"
+                        ],
+                        "chat.tools.urls.autoApprove": {
+                            "https://**": true
+                        },
+                        "inlineChat.enableV2": true,
+                        "inlineChat.notebookAgent": false,
+                        "chat.sendElementsToChat.enabled": true,
+                        "chat.sendElementsToChat.attachCss": true,
+                        "chat.sendElementsToChat.attachImages": true,
+                        "chat.allowAnonymousAccess": false,
+                        "chat.agent.thinkingStyle": "fixedScrolling",
+                        "chat.agent.codeBlockProgress": true,
+                        "chat.agent.thinking.collapsedTools": "always",
+                        "chat.agent.thinking.generateTitles": true,
+                        "chat.implicitContext.suggestedContext": true,
+                        "chat.renderRelatedFiles": true,
+                        "chat.editing.autoAcceptDelay": 0,
+                        "chat.editing.confirmEditRequestRemoval": false,
+                        "chat.editing.confirmEditRequestRetry": false,
+                        "chat.editor.wordWrap": "on",
+                        "chat.editRequests": "inline",
+                        "chat.checkpoints.showFileChanges": true,
+                        "chat.restoreLastPanelSession": true,
+                        "chat.viewSessions.enabled": true,
+                        "chat.viewSessions.orientation": "sideBySide",
+                        "chat.exitAfterDelegation": true,
+                        "chat.commandCenter.enabled": true,
+                        "chat.viewTitle.enabled": true,
+                        "chat.viewWelcome.enabled": false,
+                        "chat.notifyWindowOnConfirmation": true,
+                        "chat.notifyWindowOnResponseReceived": true,
+                        "chat.tools.todos.showWidget": true,
+                        "chat.undoRequests.restoreInput": true,
+                        "inlineChat.finishOnType": true,
+                        "inlineChat.holdToSpeech": true,
+                        "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Xmx2G -Xms100m",
+                        "java.server.launchMode": "Standard",
+                        "java.completion.favoriteStaticMembers": [
+                            "org.junit.jupiter.api.Assertions.*",
+                            "org.mockito.Mockito.*",
+                            "org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*",
+                            "org.springframework.test.web.servlet.result.MockMvcResultMatchers.*"
+                        ],
+                        "java.completion.importOrder": [
+                            "java",
+                            "javax",
+                            "com",
+                            "org"
+                        ],
+                        "java.jdt.ls.lombokSupport.enabled": true,
+                        "java.test.config": {
+                            "vmArgs": [
+                                "-Dspring.profiles.active=test"
+                            ]
+                        },
+                        "java.test.defaultConfig": "default",
+                        "java.telemetry.enabled": false,
+                        "redhat.telemetry.enabled": false,
+                        "telemetry.telemetryLevel": "off"
+                    }
+                }
+            ]
+        },
+        "onCreateCommands": [],
+        "updateContentCommands": [],
+        "postCreateCommands": [
+            "bash -c 'exec > >(tee /tmp/devcontainer-setup.log) 2>&1; if uname -r | grep -i microsoft > /dev/null; then sudo apt-get update && sudo apt-get install -y gettext-base jq python3 && find .devcontainer -type f -exec sed -i \"s/\\r$//\" {} + && python3 .devcontainer/fix-line-endings.py && sudo apt-get remove -y python3 && sudo apt-get autoremove -y && source shell.env && exec bash .devcontainer/.devcontainer.postcreate.sh vscode; else sudo apt-get update && sudo apt-get install -y gettext-base jq && sudo bash .devcontainer/.devcontainer.postcreate.sh vscode; fi && echo \"Setup complete. View logs: cat /tmp/devcontainer-setup.log\" && exit 0'"
+        ],
+        "postStartCommands": [],
+        "postAttachCommands": [],
+        "remoteEnv": {},
+        "portsAttributes": {}
+    }
+}
+[Info	- 14:31:42.147] Found container ID: b1f9bf1c4a959cc497cf83f89a9573f095ab6857de83eb01768af9bc517ef341
+[Info	- 14:31:42.147] Devcontainer CLI path: /Applications/Windsurf.app/Contents/Resources/app/extensions/windsurf-dev-containers/dist/@devcontainers/cli/dist/spec-node/devContainersSpecCLI.js
+[Info	- 14:31:42.147] Reading devcontainer configuration with command: /Applications/Windsurf.app/Contents/Frameworks/Windsurf Helper (Plugin).app/Contents/MacOS/Windsurf Helper (Plugin) /Applications/Windsurf.app/Contents/Resources/app/extensions/windsurf-dev-containers/dist/@devcontainers/cli/dist/spec-node/devContainersSpecCLI.js read-configuration --workspace-folder /Users/dummy-user/Workspace/dummy-org/windsurf-debug-devcontainer-example --container-id b1f9bf1c4a959cc497cf83f89a9573f095ab6857de83eb01768af9bc517ef341 --config /Users/dummy-user/Workspace/dummy-org/windsurf-debug-devcontainer-example/.devcontainer/devcontainer.json
+[Info	- 14:31:42.278] Finished Read Dev Container Configuration.
+[Info	- 14:31:42.278] Found 16 extensions to install: aws-scripting-guy.cform, amazonwebservices.aws-toolkit-vscode, eamodio.gitlens, GitHub.vscode-pull-request-github, GitHub.vscode-github-actions, ms-azuretools.vscode-docker, ms-python.debugpy, charliermarsh.ruff, ms-python.python, ms-python.vscode-pylance, redhat.vscode-yaml, streetsidesoftware.code-spell-checker, wayou.vscode-todo-highlight, vscjava.vscode-java-pack, redhat.java, anthropic.claude-code
+[Info	- 14:31:42.278] Remote user: vscode
+[Info	- 14:31:42.278] Installing remote server in container...
+[Info	- 14:31:42.278] Bash script:
+
+# Server installation script
+DISABLE_SERVER_CHECKSUM="false"
+TMP_DIR="${XDG_RUNTIME_DIR:-"/tmp"}"
+
+DISTRO_VSCODE_VERSION="1.106.0"
+DISTRO_WINDSURF_VERSION="1.9544.26"
+DISTRO_COMMIT="c378df247aa57450376bd5346440192e1549717d"
+DISTRO_ID="c378df247aa57450376bd5346440192e1549717d"
+DISTRO_QUALITY="stable"
+DISTRO_VSCODIUM_RELEASE=""
+
+SERVER_APP_NAME="windsurf-server"
+SERVER_INITIAL_EXTENSIONS="--install-extension aws-scripting-guy.cform --install-extension amazonwebservices.aws-toolkit-vscode --install-extension eamodio.gitlens --install-extension GitHub.vscode-pull-request-github --install-extension GitHub.vscode-github-actions --install-extension ms-azuretools.vscode-docker --install-extension ms-python.debugpy --install-extension charliermarsh.ruff --install-extension ms-python.python --install-extension ms-python.vscode-pylance --install-extension redhat.vscode-yaml --install-extension streetsidesoftware.code-spell-checker --install-extension wayou.vscode-todo-highlight --install-extension vscjava.vscode-java-pack --install-extension redhat.java --install-extension anthropic.claude-code"
+SERVER_LISTEN_FLAG="--port=0"
+SERVER_DATA_DIR="$HOME/.windsurf-server"
+SERVER_DIR="$SERVER_DATA_DIR/bin/$DISTRO_ID"
+SERVER_SCRIPT="$SERVER_DIR/bin/$SERVER_APP_NAME"
+SERVER_LOGFILE="$SERVER_DATA_DIR/.$DISTRO_ID.log"
+SERVER_PIDFILE="$SERVER_DATA_DIR/.$DISTRO_ID.pid"
+SERVER_TOKENFILE="$SERVER_DATA_DIR/.$DISTRO_ID.token"
+SERVER_SSH_AGENT_SOCKET="$SERVER_DATA_DIR/.$DISTRO_ID-ssh-auth.sock"
+SERVER_ARCH=
+SERVER_CONNECTION_TOKEN=
+SERVER_DOWNLOAD_URL=
+
+LISTENING_ON=
+OS_RELEASE_ID=
+ARCH=
+PLATFORM=
+SERVER_PID=
+
+GLIBC_VERSION_GOOD=
+
+# Add lock mechanism
+LOCK_FILE="$SERVER_DATA_DIR/.installation_lock"
+
+# Function to acquire lock
+acquire_lock() {
+	exec 200>$LOCK_FILE
+	echo "Waiting for lock..."
+	flock 200
+	echo "Lock acquired, proceeding with installation."
+}
+
+# Function to release lock
+release_lock() {
+	flock -u 200
+	exec 200>&-
+}
+
+trap release_lock EXIT INT TERM
+
+# Mimic output from logs of remote-ssh extension
+print_install_results_and_exit() {
+	if [[ $1 -eq 1 ]]; then
+		echo ""
+		echo "Error: installation failed."
+		if [[ -f "$SERVER_LOGFILE" ]]; then
+			echo "Server log:
+ $(cat "$SERVER_LOGFILE")
+"
+		fi
+	fi
+	if [[ "$GLIBC_VERSION_GOOD" = "false" ]]; then
+		echo "Warning: valid glibc version not found. Windsurf only supports remote connections with glibc >= 2.28, such as Ubuntu 20.04, Debian 10, or CentOS 8."
+		echo ""
+	fi
+	echo "fb22c3649f560e95548e87ef: start"
+	echo "exitCode==$1=="
+	echo "listeningOn==$LISTENING_ON=="
+	echo "connectionToken==$SERVER_CONNECTION_TOKEN=="
+	echo "logFile==$SERVER_LOGFILE=="
+	echo "osReleaseId==$OS_RELEASE_ID=="
+	echo "arch==$ARCH=="
+	echo "platform==$PLATFORM=="
+	echo "tmpDir==$TMP_DIR=="
+	
+	echo "fb22c3649f560e95548e87ef: end"
+
+	exit 0
+}
+
+delete_server() {
+	if [[ -n "$OLD_DISTRO_ID" ]]; then
+		echo "Cleaning up files for $OLD_DISTRO_ID..."
+		rm -rf "$SERVER_DATA_DIR/bin/$OLD_DISTRO_ID"
+		rm -f "$SERVER_DATA_DIR/.$OLD_DISTRO_ID.pid"
+		rm -f "$SERVER_DATA_DIR/.$OLD_DISTRO_ID.log"
+		rm -f "$SERVER_DATA_DIR/.$OLD_DISTRO_ID.token"
+		rm -f "$SERVER_DATA_DIR/.$OLD_DISTRO_ID-ssh-auth.sock"
+		echo "$OLD_DISTRO_ID cleaned up."
+	fi
+}
+
+clean_up_old_servers() {
+	echo "Cleaning up old server installations..."
+	if [[ -d "$SERVER_DATA_DIR/bin" ]]; then
+		for OLD_DISTRO_DIR_FULL_PATH in "$SERVER_DATA_DIR"/bin/*; do
+			if [[ -d "$OLD_DISTRO_DIR_FULL_PATH" ]]; then
+				OLD_DISTRO_ID=$(basename "$OLD_DISTRO_DIR_FULL_PATH")
+
+				if [[ "$OLD_DISTRO_ID" = "$DISTRO_ID" ]]; then
+					continue
+				fi
+
+				echo "Checking old server: $OLD_DISTRO_ID"
+				OLD_SERVER_PIDFILE="$SERVER_DATA_DIR/.$OLD_DISTRO_ID.pid"
+
+				echo "Old server PID file: $OLD_SERVER_PIDFILE"
+
+				NUMBER_OF_EXECUTABLES=$(find "$OLD_DISTRO_DIR_FULL_PATH/bin/" -maxdepth 1 -type f -executable | wc -l)
+				if (( $NUMBER_OF_EXECUTABLES == 0 )); then
+					echo "No executables found in $OLD_DISTRO_DIR_FULL_PATH/bin/"
+					delete_server
+					continue
+				elif (( $NUMBER_OF_EXECUTABLES > 1 )); then
+					echo "Multiple executables found in $OLD_DISTRO_DIR_FULL_PATH/bin/, leaving it alone."
+					continue
+				else
+					OLD_SERVER_SCRIPT=$(find "$OLD_DISTRO_DIR_FULL_PATH/bin/" -maxdepth 1 -type f -executable)
+					echo "Old server script: $OLD_SERVER_SCRIPT"
+				fi
+
+				OLD_SERVER_SCRIPT_PATH=$(readlink -f "$OLD_SERVER_SCRIPT")
+				echo "Old server script path: $OLD_SERVER_SCRIPT_PATH"
+
+				if [[ -z "$OLD_SERVER_SCRIPT_PATH" ]]; then
+					echo "Something went wrong, old server script path is empty. Skipping old server $OLD_DISTRO_ID."
+					continue
+				fi
+
+				if [[ ! -f "$OLD_SERVER_PIDFILE" ]]; then
+					OLD_PID=$(pgrep -f "$OLD_SERVER_SCRIPT_PATH")
+					if [[ -n "$OLD_PID" ]]; then
+						touch "$OLD_SERVER_PIDFILE"
+						echo "$OLD_PID" > "$OLD_SERVER_PIDFILE"
+						echo "Wrote to PID file for $OLD_DISTRO_ID: $OLD_SERVER_PIDFILE"
+					fi
+				fi
+
+				if [[ -f "$OLD_SERVER_PIDFILE" ]]; then
+					OLD_PID=$(cat "$OLD_SERVER_PIDFILE")
+					echo "Old server PID: $OLD_PID"
+					if [[ -z "$OLD_PID" ]]; then
+						OLD_PID=$(pgrep -f "$OLD_SERVER_SCRIPT_PATH")
+						if [[ -n "$OLD_PID" ]]; then
+							echo "$OLD_PID" > "$OLD_SERVER_PIDFILE"
+							echo "Restored PID file for $OLD_DISTRO_ID: $OLD_SERVER_PIDFILE."
+						fi
+					fi
+					# Check if PID is non-empty and if process with OLD_PID is running
+					if [[ -n "$OLD_PID" ]] && ps -p "$OLD_PID" > /dev/null 2>&1; then
+						OLD_RUNNING_PROCESS="$(ps -o pid,args -p $OLD_PID | grep -F $OLD_SERVER_SCRIPT_PATH)"
+						if [[ -n "$OLD_RUNNING_PROCESS" ]]; then
+							echo "Old server $OLD_DISTRO_ID (PID $OLD_PID) is running."
+						fi
+					else
+						echo "Old server $OLD_DISTRO_ID (PID $OLD_PID) is not running."
+						delete_server
+						continue
+					fi
+				else
+					echo "No PID file found for old server $OLD_DISTRO_ID ($OLD_SERVER_PIDFILE) and no processes matching the script path."
+					delete_server
+					continue
+				fi
+			fi
+		done
+		echo "Finished cleaning up old server installations."
+	else
+		echo "No server bin directory found at $SERVER_DATA_DIR/bin. Skipping cleanup of old servers."
+	fi
+}
+
+terminateTree() {
+	for cpid in $(/usr/bin/pgrep -P $1); do
+		terminateTree $cpid
+	done
+	kill -9 $1 > /dev/null 2>&1
+}
+
+kill_running_server() {
+	if [[ -n "$1" ]]; then
+		echo "Killing server process with PID $1 (and all its children)"
+		terminateTree $1
+	fi
+}
+
+# Check if platform is supported
+KERNEL="$(uname -s)"
+case $KERNEL in
+	Darwin)
+		PLATFORM="darwin"
+		;;
+	Linux)
+		PLATFORM="linux"
+		;;
+	FreeBSD)
+		PLATFORM="freebsd"
+		;;
+	DragonFly)
+		PLATFORM="dragonfly"
+		;;
+	*)
+		echo "Error platform not supported: $KERNEL"
+		print_install_results_and_exit 1
+		;;
+esac
+
+# Check machine architecture
+ARCH="$(uname -m)"
+case $ARCH in
+	x86_64 | amd64)
+		SERVER_ARCH="x64"
+		;;
+	armv7l | armv8l)
+		SERVER_ARCH="armhf"
+		;;
+	arm64 | aarch64)
+		SERVER_ARCH="arm64"
+		;;
+	ppc64le)
+		SERVER_ARCH="ppc64le"
+		;;
+	riscv64)
+		SERVER_ARCH="riscv64"
+		;;
+	*)
+		echo "Error architecture not supported: $ARCH"
+		print_install_results_and_exit 1
+		;;
+esac
+
+# Attempt to get checksum from manifest
+
+if [[ "$DISTRO_QUALITY" = "insider" ]]; then
+	MANIFEST_URL="https://windsurf-nightly.codeiumdata.com/${PLATFORM}-reh-${SERVER_ARCH}/${DISTRO_QUALITY}/manifest-${DISTRO_COMMIT}.json"
+else
+	MANIFEST_URL="https://windsurf-stable.codeiumdata.com/${PLATFORM}-reh-${SERVER_ARCH}/${DISTRO_QUALITY}/manifest-${DISTRO_COMMIT}.json"
+fi
+
+if [[ $DISABLE_SERVER_CHECKSUM = "true" ]]; then
+	SHA256_HASH=""
+else
+	# Curl the manifest URL, and get the sha256 hash
+	SHA256_HASH="$(curl -s "$MANIFEST_URL" --max-time 5 | grep -o '"sha256hash": "[^"]*"' | sed 's/"sha256hash": "\(.*\)"/\1/')"
+
+	if [[ $? -ne 0 || -z $SHA256_HASH ]]; then
+		echo "Warning: could not get sha256 hash from manifest: will not verify checksum."
+		SHA256_HASH=""
+	fi
+
+	if ! sha256sum --version > /dev/null 2>&1; then
+		echo "Warning: sha256sum could not be found: will not verify checksum."
+		SHA256_HASH=""
+	fi
+fi
+
+# https://www.freedesktop.org/software/systemd/man/os-release.html
+OS_RELEASE_ID="$(grep -i '^ID=' /etc/os-release 2>/dev/null | sed 's/^ID=//gi' | sed 's/"//g')"
+if [ -z $OS_RELEASE_ID ]; then
+	OS_RELEASE_ID="$(grep -i '^ID=' /usr/lib/os-release 2>/dev/null | sed 's/^ID=//gi' | sed 's/"//g')"
+	if [ -z $OS_RELEASE_ID ]; then
+		OS_RELEASE_ID="unknown"
+	fi
+fi
+
+# Create installation folder
+if [ ! -d $SERVER_DIR ]; then
+	mkdir -p $SERVER_DIR
+	if (( $? > 0 )); then
+		echo "Error creating server install directory"
+		print_install_results_and_exit 1
+	fi
+fi
+
+# Acquire lock at the beginning of the script
+acquire_lock
+
+# Add trap to release lock on exit
+trap release_lock EXIT
+
+clean_up_old_servers
+
+if [ -n "$SSH_AUTH_SOCK" ]; then
+	ln -s -f $SSH_AUTH_SOCK $SERVER_SSH_AGENT_SOCKET
+fi
+export SSH_AUTH_SOCK=$SERVER_SSH_AGENT_SOCKET
+
+
+SERVER_DOWNLOAD_URL="$(echo "https://windsurf-stable.codeiumdata.com/\${os}-reh-\${arch}/\${quality}/\${commit}/windsurf-reh-\${os}-\${arch}-\${windsurfVersion}.tar.gz" | sed "s/\${quality}/$DISTRO_QUALITY/g" | sed "s/\${vscodeVersion}/$DISTRO_VSCODE_VERSION/g" | sed "s/\${commit}/$DISTRO_COMMIT/g" | sed "s/\${os}/$PLATFORM/g" | sed "s/\${arch}/$SERVER_ARCH/g" | sed "s/\${release}/$DISTRO_VSCODIUM_RELEASE/g" | sed "s/\${windsurfVersion}/$DISTRO_WINDSURF_VERSION/g")"
+
+if [[ "$PLATFORM" == "linux" ]]; then
+	# Check ldd version based on format "ldd (.*) 2.28"
+	version=$(ldd --version | head -n 1 | grep -oE '[0-9]+.[0-9]+$')
+	if (( $? > 0 )); then
+		echo "Warning: ldd not found"
+		GLIBC_VERSION_GOOD="false"
+	else
+		major=$(echo "$version" | cut -d '.' -f 1)
+		minor=$(echo "$version" | cut -d '.' -f 2)
+
+		if [[ "$major" -eq 2 && "$minor" -ge 28 ]]; then
+			GLIBC_VERSION_GOOD="true"
+		else
+			GLIBC_VERSION_GOOD="false"
+		fi
+	fi
+
+	if [[ "$GLIBC_VERSION_GOOD" = "false" ]]; then
+		echo "Warning: valid glibc version not found. Windsurf only supports remote connections with glibc >= 2.28, such as Ubuntu 20.04, Debian 10, or CentOS 8."
+	fi
+fi
+
+# Check if server script is already installed
+if [ ! -f $SERVER_SCRIPT ]; then
+	if [ "$PLATFORM" != "darwin" ] && [ "$PLATFORM" != "linux" ]; then
+		echo "Error "$PLATFORM" needs manual installation of remote extension host"
+		print_install_results_and_exit 1
+	fi
+
+	pushd $SERVER_DIR > /dev/null
+
+	temp_file=$(mktemp)
+	if [ ! -z $(which curl) ]; then
+		curl --retry 3 --connect-timeout 10 --location --show-error --silent --output $temp_file $SERVER_DOWNLOAD_URL
+	elif [ ! -z $(which wget) ]; then
+		wget --tries=3 --timeout=10 --continue --quiet -O $temp_file $SERVER_DOWNLOAD_URL
+	else
+		echo "Error no tool to download server binary"
+		print_install_results_and_exit 1
+	fi
+
+	if (( $? > 0 )); then
+		echo "Error downloading server from $SERVER_DOWNLOAD_URL"
+		print_install_results_and_exit 1
+	fi
+
+	mv $temp_file vscode-server.tar.gz
+
+	# Before extracting it, check the checksum
+	if [[ ! -z $SHA256_HASH ]]; then
+		# Calculate the checksum of the downloaded file
+		CALCULATED_HASH="$(sha256sum vscode-server.tar.gz | cut -d ' ' -f 1)"
+		
+		# Compare with the expected hash
+		if [[ "$CALCULATED_HASH" != "$SHA256_HASH" ]]; then
+			echo "Error: Checksum verification failed: this usually means the server failed to download correctly."
+			echo "Expected: $SHA256_HASH"
+			echo "Got: $CALCULATED_HASH"
+
+			rm -f vscode-server.tar.gz
+
+			print_install_results_and_exit 1
+		else
+			echo "Checksum verification passed: $CALCULATED_HASH"
+		fi
+	else 
+		echo "Skipping checksum verification"
+	fi
+
+	tar -xf vscode-server.tar.gz --strip-components 1
+	if (( $? > 0 )); then
+		echo "Error while extracting server contents"
+		print_install_results_and_exit 1
+	fi
+
+	if [ ! -f $SERVER_SCRIPT ]; then
+		echo "Error server contents are corrupted"
+		print_install_results_and_exit 1
+	fi
+
+	rm -f vscode-server.tar.gz
+
+	popd > /dev/null
+else
+	echo "Server script already installed in $SERVER_SCRIPT"
+fi
+
+# Try to find if server is already running
+if [[ -f $SERVER_PIDFILE ]]; then
+	SERVER_PID="$(cat $SERVER_PIDFILE)"
+	if [[ -z $SERVER_PID ]]; then
+		SERVER_PID=$(pgrep -f "$SERVER_SCRIPT")
+		if [[ -n $SERVER_PID ]]; then
+			touch $SERVER_PIDFILE
+			echo $SERVER_PID > $SERVER_PIDFILE
+		fi
+	fi
+	if [[ -n $SERVER_PID ]]; then
+		if [[ -n $(ps -o pid,args -p $SERVER_PID | grep $SERVER_SCRIPT) ]]; then
+			SERVER_RUNNING_PROCESS="$SERVER_PID"
+			echo "Found running server process: $SERVER_RUNNING_PROCESS"
+		fi
+	fi
+else
+	SERVER_RUNNING_PROCESS="$(pgrep -f "$SERVER_SCRIPT")"
+	if [[ -z $SERVER_RUNNING_PROCESS ]]; then
+		SERVER_PID=
+	else
+		SERVER_PID=$SERVER_RUNNING_PROCESS
+		touch $SERVER_PIDFILE
+		echo $SERVER_PID > $SERVER_PIDFILE
+	fi
+fi
+
+if [ -z "$SERVER_RUNNING_PROCESS" ]; then
+	if [ -f "$SERVER_LOGFILE" ]; then
+		rm $SERVER_LOGFILE
+	fi
+	if [ -f "$SERVER_TOKENFILE" ]; then
+		rm $SERVER_TOKENFILE
+	fi
+
+	touch $SERVER_TOKENFILE
+	chmod 600 $SERVER_TOKENFILE
+	SERVER_CONNECTION_TOKEN="776107945327"
+	echo $SERVER_CONNECTION_TOKEN > $SERVER_TOKENFILE
+
+	export REMOTE_CONTAINERS=true
+
+	$SERVER_SCRIPT --start-server --host=127.0.0.1 $SERVER_LISTEN_FLAG $SERVER_INITIAL_EXTENSIONS --connection-token-file $SERVER_TOKENFILE --telemetry-level off --enable-remote-auto-shutdown --accept-server-license-terms &> $SERVER_LOGFILE & disown
+	echo $! > $SERVER_PIDFILE
+	SERVER_PID=$(cat $SERVER_PIDFILE)
+else
+	echo "Server script is already running $SERVER_SCRIPT"
+fi
+
+if [[ -f $SERVER_TOKENFILE && -n $(cat $SERVER_TOKENFILE) ]]; then
+	SERVER_CONNECTION_TOKEN="$(cat $SERVER_TOKENFILE)"
+else
+	echo "Error server token file not found $SERVER_TOKENFILE"
+	if [[ -n $SERVER_PID ]]; then
+		kill_running_server $SERVER_PID
+	fi
+	print_install_results_and_exit 1
+fi
+
+if [ -f "$SERVER_LOGFILE" ]; then
+	for i in {1..5}; do
+		LISTENING_ON="$(cat $SERVER_LOGFILE | grep -E 'Extension host agent listening on .+' | sed 's/Extension host agent listening on //')"
+		if [ -n "$LISTENING_ON" ]; then
+			break
+		fi
+		sleep 0.5
+	done
+
+	if [ -z "$LISTENING_ON" ]; then
+		echo "Error server did not start sucessfully"
+		if [[ -n $SERVER_PID ]]; then
+			kill_running_server $SERVER_PID
+		fi
+		print_install_results_and_exit 1
+	fi
+else
+	echo "Error server log file not found $SERVER_LOGFILE"
+	if [[ -n $SERVER_PID ]]; then
+		kill_running_server $SERVER_PID
+	fi
+	print_install_results_and_exit 1
+fi
+
+# Finish server setup
+print_install_results_and_exit 0
+
+[Info	- 14:31:42.278] Install options: {
+  "id": "fb22c3649f560e95548e87ef",
+  "vscodeVersion": "1.106.0",
+  "windsurfVersion": "1.9544.26",
+  "commit": "c378df247aa57450376bd5346440192e1549717d",
+  "quality": "stable",
+  "extensionIds": [
+    "aws-scripting-guy.cform",
+    "amazonwebservices.aws-toolkit-vscode",
+    "eamodio.gitlens",
+    "GitHub.vscode-pull-request-github",
+    "GitHub.vscode-github-actions",
+    "ms-azuretools.vscode-docker",
+    "ms-python.debugpy",
+    "charliermarsh.ruff",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "redhat.vscode-yaml",
+    "streetsidesoftware.code-spell-checker",
+    "wayou.vscode-todo-highlight",
+    "vscjava.vscode-java-pack",
+    "redhat.java",
+    "anthropic.claude-code"
+  ],
+  "envVariables": [],
+  "useSocketPath": false,
+  "serverApplicationName": "windsurf-server",
+  "serverDataFolderName": ".windsurf-server",
+  "serverDownloadUrlTemplate": "https://windsurf-stable.codeiumdata.com/${os}-reh-${arch}/${quality}/${commit}/windsurf-reh-${os}-${arch}-${windsurfVersion}.tar.gz",
+  "distroId": "c378df247aa57450376bd5346440192e1549717d",
+  "disableServerChecksum": false
+}
+[Error	- 14:31:42.352] Failed to change server installation script owner: chown: cannot access '/tmp/fb22c3649f560e95548e87ef.sh': No such file or directory
+
+stdout: 
